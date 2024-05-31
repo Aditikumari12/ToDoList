@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main_div{
+  width: 100vw;
+  height: 100vh;
+  background: rgb(77, 77, 131);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center_div{
+  height: 80%;
+  width: 25%;
+  background: white;
+  border-radius: 30px;
+  box-shadow: 10px 10px 50px 1px black;
+
+}
+h1{
+  background-color: rgb(163, 104, 219);
+  text-align: center;
+  color: white;
+}
+input{
+  text-align: center;
+  height: 30px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 600;
+  width: 60%;
+  border-bottom: 4px solid rgb(163, 104, 219);
+  outline: none;
+  margin-left: 30px;
+}
+
+
+
+button{
+  min-height: 40px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  background: rgb(163, 104, 219);
+  color: #fff;
+  font-size: 40px;
+  border: none;
+  outline: none;
+  margin-right: 20px;
+  margin-left: 20px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+button:hover{
+  background-color: #20bf6b;
+}
+ol{
+  margin-top: 30px;
+}
+
+ol li{
+  padding-left: 0px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  color: #8566aa;
+  text-transform: capitalize;
+}
+
+.todo_style{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.icon{
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: aliceblue;
+  border-radius: 50%;
+  margin: 0 15px 0 35px;
+  color: #8566aa;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.icon:hover{
+  color: crimson;
+}
+
+@media (max-width: 768px) {
+  .center_div{
+    width: 55%;
+  }  
+}
